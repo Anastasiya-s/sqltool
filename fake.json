@@ -1,0 +1,160 @@
+>> SELECT * FROM =s07dh3-tab;
+--- 0 row(s) selected.
+>>select * from =s07d62-tab
++>where fepu_nr=1670
++>for browse access;
+
+WERK  FEPU_NR   ANZEIGE_J_N_U  ANZEIGE_J_N_N  ANZEIGE_J_N_B
+----  --------  -------------  -------------  -------------
+ANZEIGE_ABFAHRURSACHE_J_N  DEFAULT_UEBERSICHTSMODUS_KZ
+-------------------------  ---------------------------
+UEB_MODUS_BILD_ERLAUBT_J_N  UEB_MODUS_LISTE_ERLAUBT_J_N
+--------------------------  ---------------------------
+UEB_MODUS_ISTESTER_ERLAUBT_J_N  UEB_MODUS_BESTELL_ERLAUBT_J_N
+------------------------------  -----------------------------
+MUSS_ERFASSUNG_J_N_U  MUSS_ERFASSUNG_J_N_N  MUSS_ERFASSUNG_J_N_B
+--------------------  --------------------  --------------------
+VERGABE_NACHARBEITS_KZ  IST_TERMIN_VERGEBEN_J_N  KBS
+----------------------  -----------------------  -----------
+BERECHT_ERFASSEN_J_N_S  BERECHT_AENDERN_J_N_S  BERECHT_LOESCHEN_J_N_S
+----------------------  ---------------------  ----------------------
+BERECHT_Q_STOPP_SETZEN_J_N  BERECHT_Q_STOPP_LOESCHEN_J_N  BERECHT_ERFASSEN_J_N_U
+--------------------------  ----------------------------  ----------------------
+BERECHT_AENDERN_J_N_U  BERECHT_LOESCHEN_J_N_U  BERECHT_FOLGEFEHLER_J_N
+---------------------  ----------------------  -----------------------
+BERECHT_WEITERE_URSACHE_J_N  BERECHT_ERFASSEN_J_N_N  BERECHT_AENDERN_J_N_N
+---------------------------  ----------------------  ---------------------
+BERECHT_LOESCHEN_J_N_N  BERECHT_SAMMEL_J_N_N  BERECHT_ANERKENNUNG_J_N
+----------------------  --------------------  -----------------------
+BERECHT_ERFASSEN_J_N_B  BERECHT_AENDERN_J_N_B  BERECHT_LOESCHEN_J_N_B
+----------------------  ---------------------  ----------------------
+BERECHT_SAMMEL_J_N_B  BERECHT_ALARM_J_N_S  BERECHT_ALARM_J_N_U
+--------------------  -------------------  -------------------
+BERECHT_ABFAHRURS_FEST_J_N  BERECHT_ABFAHRURS_AEND_J_N
+--------------------------  --------------------------
+BERECHT_RESSOURCEN_DIALOG_J_N  BERECHT_TEILEBESTELLUNG_J_N
+-----------------------------  ---------------------------
+BERECHT_SAMMELLOESCHEN_J_N  BERECHT_WAHLWIEDERHOLUNG_J_N
+--------------------------  ----------------------------
+DEFAULT_VERURSACHER_J_N  SONSTIGE_VERURSACHER_J_N  FO_FA_GRUPPE_VERURSACHER_J_N
+-----------------------  ------------------------  ----------------------------
+STATION_VERURSACHER_J_N  PFERD_VERURSACHER_J_N  KOSTENSTELLE_ERFASSER_J_N
+-----------------------  ---------------------  -------------------------
+VERURSACHER_KNR_TERMINE_J_N  IST_DURCHLAUF_FEPU_NR_GRUPPE  BETREIBER_INIT_J_N
+---------------------------  ----------------------------  ------------------
+ERF_MODUS_INIT_J_N  FKL_DEFAULT_ERF_MODUS_J_N  POS_RASTER_AUSBLENDEN_J_N
+------------------  -------------------------  -------------------------
+ANZEIGE_BILD_UEBERGEORD_FO_J_N  ZIELESTEUERUNG_J_N  ABFAHRURS_BEI_ABSCHLUSS_J_N
+------------------------------  ------------------  ---------------------------
+ANERKANNT_VON_FREITEXT_J_N  FA_VERURSACHER_FILTER_J_N
+--------------------------  -------------------------
+ABFAHR_URSACHE_TERMINCHECK_J_N  PT_NUMMER_DEFAULT_PRAEFIX  ERFASSUNGSMODUS_S
+------------------------------  -------------------------  -----------------
+STRUKTURLI_ERLAUBT_J_N_S  BETREIBERLI_ERLAUBT_J_N_S  STATIONSLI_ERLAUBT_J_N_S
+------------------------  -------------------------  ------------------------
+FEHLERHITLI_ERLAUBT_J_N_S  GESAMTLI_ERLAUBT_J_N_S  GESAMTLI_SANR_ERLAUBT_J_N_S
+-------------------------  ----------------------  ---------------------------
+FEHLERSCHWERE_KZ_S  ANZAHL_FEHLER_KZ_S  VERURSACHER_KZ_S
+------------------  ------------------  ----------------
+VERURSACHER_SCHICHT_KZ_S  NACHARBEITSZIEL_KZ_S  ABFAHRGRUND_KZ_S  KOMMENTAR_KZ_S
+------------------------  --------------------  ----------------  --------------
+ERFASST_FUER_KZ_S  PT_NUMMER_KZ_S  GESAMTLISTE_FEHLERARTEN_J_N_S
+-----------------  --------------  -----------------------------
+GES_LISTE_FA_DEFAULT_J_N_S  GESAMTLISTE_VERURSACHER_J_N_S
+--------------------------  -----------------------------
+GES_LISTE_VERURS_DEFAULT_J_N_S  GES_LISTE_NEG_VERURS_J_N_S  HITLI_GROESSE_S
+------------------------------  --------------------------  ---------------
+HITLI_SCHWELLWERT_S  HITLI_ZEITRAUM_IN_TAGEN_S  ERFASSUNGSMODUS_U
+-------------------  -------------------------  -----------------
+LISTE_ERLAUBT_J_N_U  STRUKTURLI_ERLAUBT_J_N_U  BETREIBERLI_ERLAUBT_J_N_U
+-------------------  ------------------------  -------------------------
+STATIONSLI_ERLAUBT_J_N_U  FEHLERHITLI_ERLAUBT_J_N_U  GESAMTLI_ERLAUBT_J_N_U
+------------------------  -------------------------  ----------------------
+GESAMTLI_SANR_ERLAUBT_J_N_U  FEHLERSCHWERE_KZ_U  VERURSACHER_KZ_U
+---------------------------  ------------------  ----------------
+VERURSACHER_SCHICHT_KZ_U  NACHARBEITSZIEL_KZ_U  NACHARBEITSZEIT_KZ_U
+------------------------  --------------------  --------------------
+KOMMENTAR_KZ_U  ERFASST_FUER_KZ_U  PT_NUMMER_KZ_U  DEFAULT_SYMPTOMDATEN_J_N_U
+--------------  -----------------  --------------  --------------------------
+GESAMTLISTE_FEHLERARTEN_J_N_U  GES_LISTE_FA_DEFAULT_J_N_U
+-----------------------------  --------------------------
+GESAMTLISTE_VERURSACHER_J_N_U  GES_LISTE_VERURS_DEFAULT_J_N_U
+-----------------------------  ------------------------------
+GES_LISTE_NEG_VERURS_J_N_U  HITLI_GROESSE_U  HITLI_SCHWELLWERT_U
+--------------------------  ---------------  -------------------
+HITLI_ZEITRAUM_IN_TAGEN_U  NACHARBEIT_KZ_U  EINSTIEG_FO_FEHLER_J_N_U
+-------------------------  ---------------  ------------------------
+ABHILFE_KZ_N  NACHARBEITSORT_KZ_N  NACHARBEITSZEIT_KZ_N  SACHNUMMER_KZ_N
+------------  -------------------  --------------------  ---------------
+AGGREGATE_NR_KZ_N  ANERKANNT_VON_KZ_N  KOMMENTAR_KZ_N  ERFASST_FUER_KZ_N
+-----------------  ------------------  --------------  -----------------
+KOMMENTAR_KZ_B  ERFASST_FUER_KZ_B  NA_BESTAETIGUNG_IO_J_N
+--------------  -----------------  ----------------------
+ERLEDIGTE_FEHLER_ANZ_J_N  FOLGEFEHLER_ANZEIGEN_J_N  IS_TESTER_FILTER_KZ
+------------------------  ------------------------  -------------------
+ERLEDIGTE_F_AEND_ERLAUBT_J_N  FOLGEFEHLER_AEND_ERLAUBT_J_N
+----------------------------  ----------------------------
+IS_T_FILTER_AEND_ERLAUBT_J_N  SORTIERUNGSART_KZ  FOLGEFEHLERGRUPPIERUNG_J_N
+----------------------------  -----------------  --------------------------
+SORTIERUNG_AEND_ERLAUBT_J_N  FF_GRP_AEND_ERLAUBT_J_N  ERF_FEPU_NR_AKT_J_N
+---------------------------  -----------------------  -------------------
+BEANSTANDUNGSFILTERTYP_KZ  BEANSTANDUNGSFILTERLOGIK_KZ  INSERT_USER
+-------------------------  ---------------------------  ------------
+INSERT_TIMESTAMP         INSERT_PROZESSNAME  LUPD_USER
+-----------------------  ------------------  ------------
+LUPD_TIMESTAMP           LUPD_PROZESSNAME
+-----------------------  ----------------
+
+0500      1670  J              J              J
+J                          B
+J                           J
+N                               J
+J                     N                     N
+2                       N                        0001
+J                       J                      J
+N                           N                             J
+J                      J                       J
+J                            J                       J
+J                       N                     N
+J                       N                      N
+N                     N                    J
+N                           N
+N                              N
+N                           N
+J                        J                         J
+J                        N                      J
+J                            TOB                           N
+J                   N                          N
+N                               N                   N
+N                           N
+N                               PT                         S
+J                         N                          J
+N                          N                       N
+N                   M                   N
+N                         N                     N                 N
+D                  N               N
+N                           N
+N                               N                                        10
+                  1                         10  U
+J                    N                         N
+N                         N                          N
+N                            N                   N
+N                         N                     N
+N               D                  N               J
+N                              N
+N                              N
+N                                        10                    1
+                       10  K                N
+N             N                    N                     N
+N                  N                   N               D
+N               D                  N
+J                         J
+J                             J
+J                             L                  N
+J                            N                        N
+E                          O                            USE001IN
+2020-07-09:09:29:03.424  S07S14              USE001IN
+2020-09-25:14:31:38.331  S07S14
+
+--- 1 row(s) selected.
+>>
