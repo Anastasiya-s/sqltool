@@ -1,0 +1,60 @@
+{
+  "s00d00": [
+    { 
+      "id": "id1",
+      "colname": "COLNAME_ONE_INDEX_ONE",
+      "isPrimaryKey": true,
+      "type": "string",
+      "length": 10,
+      "isTimestamp": false
+    },
+    {
+      "id": "id2",
+      "colname": "COLNAME_TWO_INDEX_TWO",
+      "isPrimaryKey": true,
+      "type": "string",
+      "length": 10,
+      "isTimestamp": false
+    },
+    {
+      "id": "id3",
+      "colname": "COLNAME_THREE_NO_INDEX_STRING",
+      "isPrimaryKey": false,
+      "type": "string",
+      "length": 10,
+      "isTimestamp": false
+    },
+    {
+      "id": "id4",
+      "colname": "COLNAME_FOUR_NO_INDEX_NUMBER",
+      "isPrimaryKey": false,
+      "type": "number",
+      "length": 10,
+      "isTimestamp": false
+    },
+    {
+      "id": "id7",
+      "colname": "COLNAME_FIVE_NO_INDEX_J_N",
+      "isPrimaryKey": false,
+      "type": "number",
+      "length": 1,
+      "isTimestamp": false
+    },
+    {
+      "id": "id5",
+      "colname": "INSERT_USER",
+      "isPrimaryKey": false,
+      "type": "string",
+      "length": 6,
+      "isTimestamp": false
+    },
+    {
+      "id": "id6",
+      "colname": "INSERT_isTimestamp",
+      "isPrimaryKey": false,
+      "type": "string",
+      "length": 10,
+      "isTimestamp": true
+    }
+  ]
+}
